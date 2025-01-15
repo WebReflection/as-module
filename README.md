@@ -24,4 +24,4 @@ All instances will bootstrap with `{ type: 'module' }` ability so that we can st
 
 ## How to contribute?
 
-If there are native APi that requires a `{ type: 'module' }` somewhere while initializing, please just point me at that and it will be provided via this module too, thank you 🙏
+If there are native APIs that require a `{ type: 'module' }` somewhere while initializing, please just point me at those to be provided via this module too, thank you 🙏

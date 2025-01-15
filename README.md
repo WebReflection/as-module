@@ -1,5 +1,7 @@
 # as-module
 
+<sup>**Social Media Photo by [Vlado Paunovic](https://unsplash.com/@vlado) on [Unsplash](https://unsplash.com/)**</sup>
+
 A module that exports primitives that will bootstrap as module.
 
 ```js

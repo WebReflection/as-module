@@ -16,12 +16,12 @@ Worker = class extends Worker {
 if (SharedWorker) SharedWorker = class extends SharedWorker {
   /**
    * @param {string|URL} scriptURL
-   * @param {string | WorkerOptions} [options]
+   * @param {string | WorkerOptions} [name_or_options]
    */
-  constructor(scriptURL, options) {
-    if (typeof options === 'string')
-      options = { name: options };
-    super(scriptURL, { ...options, type: 'module' });
+  constructor(scriptURL, name_or_options) {
+    if (typeof name_or_options === 'string')
+      name_or_options = { name: name_or_options };
+    super(scriptURL, { ...name_or_options, type: 'module' });
   }
 }
 

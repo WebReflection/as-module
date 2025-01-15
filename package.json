@@ -1,0 +1,20 @@
+{
+  "name": "as-module",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": ["Worker", "SharedWorker"],
+  "author": "Andrea Giammarchi",
+  "license": "MIT",
+  "description": "A module that exports primitives that will bootstrap as module",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ]
+}
